@@ -1,7 +1,7 @@
 import React from "react";
 import "./Education.scss";
 import EducationCard from "../../components/educationCard/EducationCard";
-import {educationInfo, workExperiences} from "../../portfolio";
+import {educationInfo, workExperiences, communityWork} from "../../portfolio";
 
 export default function Education() {
   if (educationInfo.display) {
@@ -13,12 +13,18 @@ export default function Education() {
             <EducationCard key={index} school={school} />
           ))}
         </div>
-        <h1 className="education-heading">Work</h1>
+        {/* <h1 className="education-heading">Work</h1>
         <div className="education-card-container">
           {workExperiences.experience.map((school, index) => (
             <EducationCard key={index} school={school} />
           ))}
-        </div>
+        </div> */}
+        {/* <h1 className="education-heading">Community Work</h1>
+        <div className="education-card-container">
+          {communityWork.communityWork.map((school, index) => (
+            <EducationCard key={index} school={school} />
+          ))}
+        </div> */}
       </div>
       
     );
