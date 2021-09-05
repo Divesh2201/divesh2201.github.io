@@ -20,6 +20,9 @@ export default function SoftwareSkill() {
                 {
                   skills.skillName === 'C++' ? <img src={skills.src} width="50" height="55" /> : 
                   skills.skillName === 'Django' && isDark ? <img src='https://seeklogo.com/images/D/django-logo-F46C1DD95E-seeklogo.com.png' width="44" height="55" /> : 
+                  skills.skillName === 'AWS' && isDark ? <img src='https://cdn.worldvectorlogo.com/logos/aws-logo.svg' width="55" height="55" /> : 
+                  skills.skillName === 'AWS' ? <img src = {skills.src} width="55" height="38" />: 
+                  skills.skillName === 'JavaScript' ? <img src = {skills.src} width="50" height="55" />: 
                   skills.skillName === 'CI/CD' && isDark ? <img src='https://user-images.githubusercontent.com/296864/90276707-f691d800-de29-11ea-8d36-a4a756e3b524.png' width="55" height="55" /> : 
                   <img src = {skills.src} width="55" height="55" />
                 }

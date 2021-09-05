@@ -10,7 +10,7 @@ const greeting = {
     "An enthusiastic Software Developer Experienced in Developing Web Applications and working with Machine and Deep Learning Projects. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1T5ixAfeIOwNynqX83A0JHSX0tl28p1cV/view?usp=sharing",
+    "https://drive.google.com/file/d/1iXzJbKzvYfcykJ__A8wdE1dcT4PhW2Hn/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,12 +52,12 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/java/java-icon.svg"
     },
     {
-      skillName: "Python",
-      src: "https://www.vectorlogo.zone/logos/python/python-icon.svg"
+      skillName: "JavaScript",
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
     },
     {
-      skillName: "JavaScript",
-      src: "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
+      skillName: "Python",
+      src: "https://www.vectorlogo.zone/logos/python/python-icon.svg"
     },
     {
       skillName: "C++",
@@ -67,10 +67,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Tensorflow",
       src: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
     },
-    {
-      skillName: "PyTorch",
-      src: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
-    },
+    // {
+    //   skillName: "PyTorch",
+    //   src: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
+    // },
     {
       skillName: "Git",
       src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
@@ -78,6 +78,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "CI/CD",
       src: "https://www.vectorlogo.zone/logos/circleci/circleci-icon.svg"
+    },
+    {
+      skillName: "AWS",
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png"
     },
     {
       skillName: "Reactjs",
@@ -88,20 +92,20 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg"
     },
     {
-      skillName: "Spring Boot",
+      skillName: "Spring",
       src: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
     },
     {
-      skillName: "Databases",
-      src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
+      skillName: "Nodejs",
+      src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
     },
     {
       skillName: "npm",
       src: "https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg"
     },
     {
-      skillName: "Nodejs",
-      src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
+      skillName: "Database",
+      src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
     },
     {
       skillName: "Heroku",
@@ -176,7 +180,7 @@ const workExperiences = {
       desc: "Bizhives,‌ ‌Business‌ ‌Matchmaking‌ ‌Platform’s‌ ‌Website",
       descBullets: [
         "Created ‌an‌ ‌enterprise‌ ‌application‌ ‌from‌ ‌scratch‌ ‌using‌ ‌Spring‌ ‌boot.‌",
-        "Worked ‌with‌ ‌Docker‌ ‌and‌ ‌AWS,‌ ‌hosted ‌the‌ ‌application‌ ‌on‌ ‌ec2‌ ‌instance.‌",
+        "Worked primarily with AWS and Backend, hosting the application on ec2 instance.",
         "Used ‌Postgres‌ ‌and‌ ‌DynamoDB,‌ ‌utilized ‌relational‌ ‌and‌ ‌nosql‌ ‌databases‌ ‌for‌ ‌specific‌ ‌advantages.",
         "Set‌ ‌up‌ ‌CI/CD‌ ‌Pipelines‌ ‌using‌ ‌Github‌ ‌Actions‌ ‌and‌ ‌created ‌api‌ ‌documentation‌ ‌using‌ ‌Swagger‌ ‌UI."
       ]
