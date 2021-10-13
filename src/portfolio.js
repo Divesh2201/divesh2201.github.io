@@ -7,10 +7,10 @@ const greeting = {
   username: "Divesh Thakker",
   title: "Hi, I'm Divesh",
   subTitle: emoji(
-    "An enthusiastic Software Developer Experienced in Developing Web Applications and working with Machine and Deep Learning Projects. "
+    "An Enthusiastic Computer Scientist who wants to solve real world problems. I am keen to explore into ML/DL and am currently working in the field of Computer Vision."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1iXzJbKzvYfcykJ__A8wdE1dcT4PhW2Hn/view?usp=sharing",
+    "https://drive.google.com/file/d/1vqhvAJG0Ayd_YYzHkGs6g6Wv2JFNNbdP/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -64,13 +64,17 @@ https://fontawesome.com/icons?d=gallery */
       src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
     },
     {
+      skillName: "PyTorch",
+      src: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
+    },
+    {
       skillName: "Tensorflow",
       src: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
     },
-    // {
-    //   skillName: "PyTorch",
-    //   src: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
-    // },
+    {
+      skillName: "WandB",
+      src: "https://gblobscdn.gitbook.com/spaces%2F-Lqya5RvLedGEWPhtkjU%2Favatar.png?alt=media"
+    },
     {
       skillName: "Git",
       src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
@@ -99,10 +103,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Nodejs",
       src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
     },
-    {
-      skillName: "npm",
-      src: "https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg"
-    },
+    // {
+    //   skillName: "npm",
+    //   src: "https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg"
+    // },
     {
       skillName: "Database",
       src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
@@ -140,14 +144,14 @@ const techStack = {
   experience: [
     {
       Stack: "Problem Solving",
-      progressPercentage: "85%"
+      progressPercentage: "80%"
     },
     {
-      Stack: "Full Stack Web Development", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Computer Vision and Deep Learning", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Deep Learning / Machine Learning",
+      Stack: "Full Stack Development",
       progressPercentage: "72%"
     },
   ],
