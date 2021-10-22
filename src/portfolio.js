@@ -196,6 +196,15 @@ const communityWork = {
   display: true, //Set it to true to show workExperiences Section
   communityWork: [
     {
+      schoolName: "Microsoft Learn Student Ambassador",
+      logo: require("./assets/images/microsoft.png"),
+      subHeader: "Alpha",
+      duration: "October 2021 - Present",
+      desc: "Embarking my journey to foster technology learning in the campus along with the MLSA community. ",
+      descBullets: [
+      ]
+    },
+    {
       schoolName: "Google Developer Student Clubs",
       logo: require("./assets/images/dsc.png"),
       subHeader: "Lead",
