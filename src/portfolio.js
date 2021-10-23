@@ -197,7 +197,7 @@ const communityWork = {
   communityWork: [
     {
       schoolName: "Microsoft Learn Student Ambassador",
-      logo: require("./assets/images/microsoft.png"),
+      logo: require("./assets/images/mlsa_white.jpg"),
       subHeader: "Alpha",
       duration: "October 2021 - Present",
       desc: "Embarking my journey to foster technology learning in the campus along with the MLSA community. ",
@@ -209,7 +209,7 @@ const communityWork = {
       logo: require("./assets/images/dsc.png"),
       subHeader: "Lead",
       duration: "July 2021 - Present",
-      desc: "Leading the GDSC Community in the campus.",
+      desc: "Leading the GDSC Community in the campus in collaboration with SMLRA (Somaiya Machine Learning Research Association)",
       descBullets: [
       ]
     },
@@ -218,7 +218,7 @@ const communityWork = {
       logo: require("./assets/images/cchef.png"),
       subHeader: "Data Structures and Algorithms Educator",
       duration: "August 2020 - October 2020",
-      desc: "Teaching‌ ‌Data‌ ‌Structures‌ ‌and‌ ‌Algorithms‌ ‌on‌ ‌CodeChef’s‌ ‌official‌ ‌youtube‌ ‌channel.‌ ‌",
+      desc: "Teaching‌ ‌Data‌ ‌Structures‌ ‌and‌ ‌Algorithms‌ to over 20k students ‌on‌ ‌CodeChef’s‌ ‌official‌ ‌youtube‌ ‌channel.‌ ‌",
       descBullets: [
       
       ]
