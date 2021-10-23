@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3edc1e35.chunk.css",
-    "main.js": "/static/js/main.508aee35.chunk.js",
-    "main.js.map": "/static/js/main.508aee35.chunk.js.map",
+    "main.js": "/static/js/main.6f78d536.chunk.js",
+    "main.js.map": "/static/js/main.6f78d536.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.97d68b22.js",
     "runtime-main.js.map": "/static/js/runtime-main.97d68b22.js.map",
     "static/js/2.bac21b06.chunk.js": "/static/js/2.bac21b06.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.4b634c85.chunk.js": "/static/js/4.4b634c85.chunk.js",
     "static/js/4.4b634c85.chunk.js.map": "/static/js/4.4b634c85.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.49ae2152b3a2514313921050be9c6d6e.js": "/precache-manifest.49ae2152b3a2514313921050be9c6d6e.js",
+    "precache-manifest.85c87ca6176da7d78d3dece6935c6b2b.js": "/precache-manifest.85c87ca6176da7d78d3dece6935c6b2b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.25727338.chunk.css.map": "/static/css/3.25727338.chunk.css.map",
     "static/css/4.a8329f31.chunk.css.map": "/static/css/4.a8329f31.chunk.css.map",
@@ -29,6 +29,7 @@
     "static/media/hackbash.jpeg": "/static/media/hackbash.a4496edd.jpeg",
     "static/media/kjsce.png": "/static/media/kjsce.908ef0ce.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
+    "static/media/mlsa_white.jpg": "/static/media/mlsa_white.a304d18a.jpg",
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.829ad0a1.webp",
     "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.25018d29.webp",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
@@ -38,6 +39,6 @@
     "static/js/runtime-main.97d68b22.js",
     "static/js/2.bac21b06.chunk.js",
     "static/css/main.3edc1e35.chunk.css",
-    "static/js/main.508aee35.chunk.js"
+    "static/js/main.6f78d536.chunk.js"
   ]
 }
