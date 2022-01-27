@@ -7,7 +7,7 @@ const greeting = {
   username: "Divesh Thakker",
   title: "Hi, I'm Divesh",
   subTitle: emoji(
-    "An Enthusiastic Computer Scientist who wants to solve real world problems. I am keen to explore into ML/DL and am currently working in the field of Computer Vision."
+    "An Enthusiastic Software Developer who wants to solve real world problems. Eager to learn about new and upcoming technologies, I am currently working as in Computer Vision."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1vqhvAJG0Ayd_YYzHkGs6g6Wv2JFNNbdP/view?usp=sharing",
