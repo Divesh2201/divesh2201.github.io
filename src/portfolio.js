@@ -7,10 +7,10 @@ const greeting = {
   username: "Divesh Thakker",
   title: "Hi, I'm Divesh",
   subTitle: emoji(
-    "An Enthusiastic Software Developer who wants to solve real world problems. Eager to learn about new and upcoming technologies, I am currently working as in Computer Vision."
+    "An Enthusiastic Computer Scientist who wants to solve real world problems. I am currently working as a Software Developer Intern at NxtBig Software Labs."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1vqhvAJG0Ayd_YYzHkGs6g6Wv2JFNNbdP/view?usp=sharing",
+    "https://drive.google.com/file/d/1SIekZonTiUIwnW9BbaqHV3u0x1XJHh4u/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -54,6 +54,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+      skillName: "TypeScript",
+      src: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
     },
     {
       skillName: "Python",
@@ -103,19 +107,22 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Nodejs",
       src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
     },
+    {
+      skillName: "NoSQL",
+      src: "https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png"
+    },
     // {
     //   skillName: "npm",
     //   src: "https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg"
     // },
     {
-      skillName: "Database",
+      skillName: "PostgreSQL",
       src: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
     },
     {
-      skillName: "Heroku",
-      src: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
-    },
-    
+      skillName: "Supabase",
+      src: "https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg"
+    },    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -129,8 +136,8 @@ const educationInfo = {
       schoolName: "K J Somaiya College of Engineering",
       logo: require("./assets/images/kjsce.png"),
       subHeader: "B.Tech in Computer Engineering",
-      duration: "August 2019 - June 2023",
-      desc: "9.03 CGPI",
+      duration: "August 2019 - May 2023",
+      desc: "9.04 CGPI",
       descBullets: [
       ]
     },
@@ -143,16 +150,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Problem Solving",
+      Stack: "Software Engineering",
       progressPercentage: "80%"
     },
     {
-      Stack: "Computer Vision and Deep Learning", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      Stack: "Full Stack Development", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Full Stack Development",
-      progressPercentage: "72%"
+      Stack: "Machine Learning and Deep Learning",
+      progressPercentage: "65%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -163,6 +170,32 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      schoolName: "Barclays",
+      logo: require("./assets/images/barclays-icon.svg"),
+      subHeader: "Business Analyst Intern",
+      duration: "June 2022 - August 2022",
+      desc: "Positions Balances Transactions Valuations Dashboard, Wealth Processing Department",
+      descBullets: [
+        "Developed the Positions Balances Transactions Valuations (PBTV) Dashboard, a place where the internal team can check the updates of various feeds along with their entities and running status.",
+        "Fetched, verified and combined the data coming from Barclays Data Warehouse (MS SQL) and AWS S3 (Hudi Table).",
+        "Computed the runtime status of various batch processes determining whether the delay is from the downstream or not.",
+        "Provided a one stop destination to get any information regarding the status of all components in the PBTV Application.",
+      ]
+    },
+    {
+      schoolName: "Dr. Ninad Mehendale, KJSCE",
+      logo: require("./assets/images/kjsce.png"),
+      subHeader: "Research Intern",
+      duration: "November 2021 - May 2022",
+      desc: "A deep learning based approach to segment exudates in retinal fundus images using Recurrent Residual U-Net.",
+      descBullets: [
+        "Predicted the stages of Diabetic Retinopathy by segmenting exudates, prominent signs of Diabetic Retinopathy.",
+        "Devised an exudate level metric using connected components algorithm and breadth first search traversal.",
+        "Performed quantitative comparison of different U-Net architectures on three benchmark datasets.",
+        "Designed a residual recurrent U-Net (R2-UNet) that segmented exudates with 93.20% sensitivity and 99.80% specificity.",
+      ]
+    },
     {
       schoolName: "NxtBig Software Labs",
       logo: require("./assets/images/nxtbig.jpg"),
@@ -185,7 +218,7 @@ const workExperiences = {
       descBullets: [
         "Created ‌an‌ ‌enterprise‌ ‌application‌ ‌from‌ ‌scratch‌ ‌using‌ ‌Spring‌ ‌boot.‌",
         "Worked primarily with AWS and Backend, hosting the application on ec2 instance.",
-        "Used ‌Postgres‌ ‌and‌ ‌DynamoDB,‌ ‌utilized ‌relational‌ ‌and‌ ‌nosql‌ ‌databases‌ ‌for‌ ‌specific‌ ‌advantages.",
+        "Used ‌Postgres‌ ‌and‌ ‌DynamoDB,‌ ‌utilized ‌relational‌ ‌and‌ ‌NoSQL‌ databases‌ ‌for‌ ‌specific‌ ‌advantages.",
         "Set‌ ‌up‌ ‌CI/CD‌ ‌Pipelines‌ ‌using‌ ‌Github‌ ‌Actions‌ ‌and‌ ‌created ‌api‌ ‌documentation‌ ‌using‌ ‌Swagger‌ ‌UI."
       ]
     },
@@ -196,20 +229,11 @@ const communityWork = {
   display: true, //Set it to true to show workExperiences Section
   communityWork: [
     {
-      schoolName: "Microsoft Learn Student Ambassador",
-      logo: require("./assets/images/mlsa_white.jpg"),
-      subHeader: "Alpha",
-      duration: "October 2021 - Present",
-      desc: "Embarking my journey to foster technology learning in the campus along with the MLSA community. ",
-      descBullets: [
-      ]
-    },
-    {
       schoolName: "Google Developer Student Clubs",
       logo: require("./assets/images/dsc.png"),
       subHeader: "Lead",
-      duration: "July 2021 - Present",
-      desc: "Leading the GDSC Community in the campus in collaboration with SMLRA (Somaiya Machine Learning Research Association)",
+      duration: "July 2021 - June 2022",
+      desc: "Led the GDSC community organizing events like the Google Cloud Campaign in the campus.",
       descBullets: [
       ]
     },
@@ -218,7 +242,7 @@ const communityWork = {
       logo: require("./assets/images/cchef.png"),
       subHeader: "Data Structures and Algorithms Educator",
       duration: "August 2020 - October 2020",
-      desc: "Teaching‌ ‌Data‌ ‌Structures‌ ‌and‌ ‌Algorithms‌ to over 20k students ‌on‌ ‌CodeChef’s‌ ‌official‌ ‌youtube‌ ‌channel.‌ ‌",
+      desc: "Selected among the few across India to work with CodeChef. Taught Data Structures and Algorithms to over 20k students on India’s largest Competitive Programming platform - CodeChef’s official Youtube channel.",
       descBullets: [
       
       ]
@@ -228,9 +252,11 @@ const communityWork = {
       logo: require("./assets/images/ccell.jpg"),
       subHeader: "Tech Team",
       duration: "May 2020 - June 2021",
-      desc: "A‌ ‌club‌ ‌of‌ ‌15‌ ‌enthusiastic‌ ‌programmers,‌ ‌conducting‌ ‌workshops,‌ ‌and‌ ‌the‌ ‌annual‌ ‌hackathon‌ ‌-‌ ‌KJSCE‌ ‌Hack.‌",
+      desc: "A team of enthusiastic competitive programmers and developers conducting hackathons, coding events and workshops for the student community.",
       descBullets: [
-      
+        "Organized the annual CodeCell hackathon, KJSCE Hack 5.0 at our university.",
+        "Hosted a panel session on Google Summer of Code (GSoC) with ex-GSoC contributors live on YouTube.",
+        "Organized CodeSpree, a competitive programming competition during the tech fest of our university and authored a dynamic programming problem for the event.",
       ]
     },
   ]
@@ -357,9 +383,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Want to discuss a project or work? My Inbox is open for all communications.",
   number: "",
   email_address: "diveshthakker2201@gmail.com"
 };
